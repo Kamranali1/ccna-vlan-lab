@@ -13,6 +13,7 @@ Design and implement a multi-switch network with VLAN segmentation, 802.1Q trunk
 ---
 
 ## Network Topology
+![Network Topology](topology.png)
 
 
 The topology consists of four switches (SW0, SW1, SW2, Multilayer Switch0) interconnected via 802.1Q trunk links, with end hosts distributed across three VLANs.
