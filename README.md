@@ -13,7 +13,7 @@ Design and implement a multi-switch network with VLAN segmentation, 802.1Q trunk
 ---
 
 ## Network Topology
-![Network Topology](topology2.png)
+![Network Topology](Screenshots/topology2.png)
 
 
 The topology consists of four switches (SW0, SW1, SW2, Multilayer Switch0) interconnected via 802.1Q trunk links, with end hosts distributed across three VLANs.
@@ -135,12 +135,8 @@ ip route 0.0.0.0 0.0.0.0 10.0.0.2
 ## Verification
 
 ### show vlan brief — Multilayer Switch
-```
-VLAN Name                Status    Ports
-10   engineering         active
-20   sales               active
-30   management          active    Fa0/1
-```
+
+ ![vlanbrief](Screenshots/multilayer-vlanbrief-inttrunk.png)
 
 ### show interfaces trunk — SW1
 ```
